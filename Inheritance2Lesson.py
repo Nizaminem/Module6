@@ -29,7 +29,6 @@ class Vehicle:
         else:
             print(f'Нельзя сменить цвет на {new_color}')
 
-
 class Sedan(Vehicle):
     __PASSENGERS_LIMIT = 5
 
