@@ -60,7 +60,7 @@ class Circle(Figure):
 
     def get_square(self):
         self.set_radius()
-        return (self.__radius ** 2) * 3.141569
+        return ((self.side)**2)/(4 * 3.141569)
 
 class Triangle(Figure):
     sides_count = 3
